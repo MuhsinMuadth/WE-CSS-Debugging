@@ -11,8 +11,8 @@ This project is designed as a debugging exercise for beginners who have just sta
 ## Instructions  
 1. Open the provided HTML file in a web browser. Observe any layout or styling issues.  
 2. Open the file in a text editor and carefully examine the CSS errors.  
-4. Fix the errors one by one, ensuring the styles apply correctly.  
-5. Refresh the web page and check if the layout and styles look as expected.  
+3. Fix the errors one by one, ensuring the styles apply correctly.  
+4. Refresh the web page and check if the layout and styles look as expected.  
 
 ## Common Issues to Look For  
 - Missing or incorrect CSS units (e.g., `px`, `%`, `em`)  

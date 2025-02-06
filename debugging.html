@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your First CSS Debug Challenge!</title>
+    
+    <!-- Welcome to the CSS debugging exercise! 
+        This file contains various intentional errors that you need to fix.
+        Read the comments carefully for hints about what might be wrong! 
+        NOTE: Not all Errors have detailed hints, you may use Google to help you with any CSS selectors/rules you haven't come across yet and how they should be structured -->
+
+    <style>
+        /* ERROR 1: Missing unit */
+        body {
+            font-size: 16;
+            /* ERROR 2: Is there anything separating them? */
+            font-family: Arial Times New Roman sans-serif;
+        }
+
+        /* ERROR 3: Incomplete */
+        .header-text {
+            color: #F4A;
+            /* ERROR 4: Missing something */
+            font-size: 24px
+        }
+
+        /* ERROR 5: ID selector is being used wrongly here */
+        #main-content# {
+            /* ERROR 6 */
+            background-color: rgb(255 230 200);
+            /* ERROR 7 */
+            padding: 20 px;
+        }
+
+        /* ERROR 8: The order... */
+        .content-box {
+            padding: left 15px bottom 10px right 15px top 10px;
+            /* ERROR 9: Missing something for the selector name... */
+            border: 2px sold black;
+        }
+
+        /* ERROR 10: */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50;
+        }
+
+        /* ERROR 11: */
+        .feature-box. {
+            /* ERROR 12 */
+            margin: -10;
+            /* ERROR 13 */
+            background-color: rgb(240 240 240);
+        }
+
+        /* ERROR 14: Attribute selector done incorrectly */
+        [type=button {
+            background-color: #3498db;
+            /* ERROR 15: Missing a value */
+            margin: 5px 10px 5px;
+        }
+
+        /* ERROR 16: Incomplete... */
+        .colored-section {
+            background-color: #FFF0;
+            /* ERROR 17 */
+            padding-top: 10;
+            padding-right: 20;
+            padding-bottom: 10;
+            padding-left: 20;
+        }
+
+        /* ERROR 18: Conflicting colour rules - which one applies? */
+        #special-text {
+            color: blue;
+        }
+        
+        .special-text {
+            color: red !important;
+            color: green;
+        }
+
+        /* ERROR 19 */
+        .small-image {
+            width: 100;
+            height: 100;
+        }
+
+        /* ERROR 20 */
+        .large-text {
+            font-size: 24;
+            font-family: "Custom Font";
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The HTML below is correct - focus on fixing the CSS above! -->
+    <h1 class="header-text">Welcome to CSS Debugging!</h1>
+    
+    <div id="main-content">
+        <div class="content-box">
+            <img class="profile-image" src="/api/placeholder/150/150" alt="Profile">
+            <p class="special-text">This text has multiple color styles - which one applies?</p>
+        </div>
+
+        <div class="feature-box">
+            <img class="small-image" src="/api/placeholder/100/100" alt="Small image">
+            <p class="large-text">This is a larger piece of text</p>
+        </div>
+
+        <div class="colored-section">
+            <p>This section has a background color and padding</p>
+            <button type="button">Click me!</button>
+        </div>
+    </div>
+</body>
+</html>
