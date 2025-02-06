@@ -14,28 +14,37 @@
             font-size: 16;
             /* ERROR 2: Is there anything separating them? */
             font-family: Arial Times New Roman sans-serif;
+            background: #f0f0f0;
         }
 
-        /* ERROR 3: Incomplete */
+        /* ERROR 3: Incomplete colour code... */
         .header-text {
-            color: #F4A;
-            /* ERROR 4: Missing something */
+            color: #076;
+            /* ERROR 4: Missing two things... */
             font-size: 24px
+            text-align: center
+            margin: 2rem 0;
         }
 
         /* ERROR 5: ID selector is being used wrongly here */
         #main-content# {
             /* ERROR 6 */
-            background-color: rgb(255 230 200);
-            /* ERROR 7 */
+            background-color: rgb(48 151 25);
+            /* ERROR 7: Space... */
             padding: 20 px;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 12px;
         }
 
-        /* ERROR 8: The order... */
+        /* ERROR 8 */
         .content-box {
-            padding: left 15px bottom 10px right 15px top 10px;
-            /* ERROR 9: Missing something for the selector name... */
+            padding: oeiutow 10 15;
+            /* ERROR 9: Look closely... */
             border: 2px sold black;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 1rem 0;
         }
 
         /* ERROR 10: */
@@ -43,53 +52,68 @@
             width: 150px;
             height: 150px;
             border-radius: 50;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
         }
 
         /* ERROR 11: */
         .feature-box. {
             /* ERROR 12 */
             margin: -10;
-            /* ERROR 13 */
+            /* ERROR 13: Three errors in the block below... */
             background-color: rgb(240 240 240);
+            display: flex;
+            gap: 1rem;
+            padding: 1m
+            align-items center;
         }
 
         /* ERROR 14: Attribute selector done incorrectly */
         [type=button {
-            background-color: #3498db;
-            /* ERROR 15: Missing a value */
+            /* ERROR 15: Missing a value in the margin... */
             margin: 5px 10px 5px;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+            background-color: #3498db;
+            color: white;
+            border-radius: 4px;
         }
 
         /* ERROR 16: Incomplete... */
         .colored-section {
             background-color: #FFF0;
             /* ERROR 17 */
-            padding-top: 10;
-            padding-right: 20;
-            padding-bottom: 10;
-            padding-left: 20;
+            padding: 10 20;
+            border-radius: 8px;
+            margin: 1rem 0;
         }
 
-        /* ERROR 18: Conflicting colour rules - which one applies? */
+        /* ERROR 18: Conflicting colour rules - make green the one that applies! Also, look closely at the selectors... */
         #special-text {
             color: blue;
         }
         
-        .special-text {
-            color: red !important;
+        #special-text {
+            color: red;
             color: green;
         }
 
         /* ERROR 19 */
         .small-cat-image {
-            width: 100;
+            width: 150;
             height: 100;
+            border: 2px solid #ddd;
+            border-radius: 8px;
         }
 
         /* ERROR 20: Related to the the size of the text...*/
         .large-text {
             font-size: 24;
-            font-family: "Custom Font";
+            font-family: "Custom Font", Arial, sans-serif;
+            margin: 0;
+            color: #333;
         }
     </style>
 </head>
