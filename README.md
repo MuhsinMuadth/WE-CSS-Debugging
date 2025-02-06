@@ -6,13 +6,11 @@ This project is designed as a debugging exercise for beginners who have just sta
 ## Learning Objectives  
 - Identify and fix common CSS syntax errors  
 - Understand proper CSS property values and units  
-- Use browser developer tools to inspect and debug styles  
 - Improve problem-solving skills in web development  
 
 ## Instructions  
 1. Open the provided HTML file in a web browser. Observe any layout or styling issues.  
-2. Use your browser’s developer tools (F12) to inspect elements and identify CSS errors.  
-3. Open the file in a text editor and carefully examine the CSS rules.  
+2. Open the file in a text editor and carefully examine the CSS errors.  
 4. Fix the errors one by one, ensuring the styles apply correctly.  
 5. Refresh the web page and check if the layout and styles look as expected.  
 
@@ -29,4 +27,4 @@ This project is designed as a debugging exercise for beginners who have just sta
 ✅ Elements have the correct colors, fonts, and spacing  
 ✅ No missing or extra CSS rules remain  
 
-Once you've fixed all errors, test your file in a web browser to ensure it renders correctly. Happy debugging! 🚀  
+Once you've fixed all errors, test your file in a web browser to ensure it renders correctly. Happy debugging!  
